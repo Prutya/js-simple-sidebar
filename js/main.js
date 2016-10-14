@@ -3,18 +3,18 @@
   var sidebarHideWidth = "0";
 
   var sidebar = document.getElementById('sidebar');
-  var content = document.getElementById('content');
+  var contentWrapper = document.getElementById('content-wrapper');
   var sidebarIsOpened = false;
 
   function openSidebar() {
     sidebar.style.width = sidebarDisplayWidth;
-    content.style.marginLeft = sidebarDisplayWidth;
+    contentWrapper.style.marginLeft = sidebarDisplayWidth;
     sidebarIsOpened = true;
   }
 
   function closeSidebar() {
     sidebar.style.width = sidebarHideWidth;
-    content.style.marginLeft = sidebarHideWidth;
+    contentWrapper.style.marginLeft = sidebarHideWidth;
     sidebarIsOpened = false;
   }
 
