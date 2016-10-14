@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+}
+
+/* Helpers */
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/* Sidebar */
+
+.sidebar {
+  display: block;
+  width: 0;
+  float: left;
+  height: 100%;
+  background-color: #ff4d4d;
+  color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.sidebar ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.sidebar ul li a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 1.0em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ff8080;
+}
+
+/* Content wrapper */
+
+.content-wrapper {
+  background-color: #ffffff;
+  height: 100%;
+  transition: margin-left .5s;
+}
+
+/* Page content */
+
+.content {
+  padding: 1.0em;
+  overflow-x: scroll;
+  height: 100%;
+}
+
+/* Header */
+
+.header {
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+
+.header menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header menu li a,button {
+  float: left;
+  display: inline-block;
+  padding: 1.0em;
+  text-align: center;
+  color: inherit;
+}
+
+.header menu li a {
+  text-decoration: none;
+}
+
+.header menu li button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.header menu li a:hover {
+  background-color: #ff8080;
+}
+
+.header menu li button:hover {
+  cursor: pointer;
+  background-color: #ff8080;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+}
