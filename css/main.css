@@ -30,7 +30,7 @@ html, body {
   z-index: 1;
   top: 0;
   left: 0;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .sidebar ul {
@@ -59,7 +59,7 @@ html, body {
 .content-wrapper {
   height: 100%;
   overflow: hidden;
-  transition: margin-left 0.5s;
+  transition: margin-left 0.3s;
 }
 
 /* Page content */
@@ -112,6 +112,12 @@ html, body {
 }
 
 .logo {
+  display: block;
+  width: 100%;
+  padding: 0.57em;
+  font-size: 140%;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.05em;
 }
